@@ -1,0 +1,391 @@
+.devie .l_arm {
+  animation-name: wiggle_left;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.devie .r_arm {
+  animation-name: wiggle_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie .l_arm {
+  animation-name: wiggle_left;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie .r_arm {
+  animation-name: wave_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie .head {
+  animation-name: head_wobble;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie .dial {
+  animation-name: antenna_wiggle_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.devie .head {
+  animation-name: head_turn;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.l_antenna {
+  animation-name: antenna_wiggle_left;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.r_antenna {
+  animation-name: antenna_wiggle_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+
+@keyframes wiggle_left {
+
+  0%{
+    transform: rotate(0.5deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+  20% {
+    transform: rotate(3.7deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+
+  40% {
+    transform: rotate(-3.0deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+
+  60% {
+    transform: rotate(-3.3deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+
+  80% {
+    transform: rotate(1.9deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+
+  100% {
+    transform: rotate(0.5deg);
+    transform-origin: top right;
+    transform-box: fill-box;
+  }
+}
+
+
+@keyframes wiggle_right {
+
+  0%,5%{
+    transform: rotate(2.6deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+  25% {
+    transform: rotate(0.9deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+
+  45% {
+    transform: rotate(-3.1deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+
+  65% {
+    transform: rotate(-1.5deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+
+  85% {
+    transform: rotate(1.1deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+
+  100% {
+    transform: rotate(2.6deg);
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+}
+
+
+@keyframes wave_right {
+
+  0%{
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  13% {
+    transform: rotate(30deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  26% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  39% {
+    transform: rotate(30deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  51% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  64% {
+    transform: rotate(30deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  77% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  91% {
+    transform: rotate(30deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+}
+
+
+@keyframes head_turn {
+0% {
+  transform: translateZ(-62px) rotateY(0deg) translateX(0px);
+}
+17% {
+  transform: translateZ(-62px) rotateY(-5deg) translateX(15px);
+}
+
+36% {
+  transform: translateZ(-62px) rotateY(5deg) translateX(-12px);
+}
+
+61% {
+  transform: translateZ(-62px) rotateY(0deg) translateX(0px);
+}
+}
+
+
+@keyframes head_wobble {
+0% {
+  transform: translateZ(-62px) rotateY(0deg) translateX(0px);
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+17% {
+  transform: translateZ(-62px) rotateY(-5deg) translateX(2px) rotateZ(0.8deg);
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+30% {
+  transform: translateZ(-62px) rotateY(2.8deg) translateX(-5px) rotateZ(2.0deg);
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+61% {
+  transform: translateZ(-62px) rotateY(0deg) translateX(0px) rotateZ(1.8deg);
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+100% {
+  transform: translateZ(-62px) rotateY(0deg) translateX(0px) rotateZ(0deg);
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+}
+
+@keyframes antenna_wiggle_left {
+
+  0%{
+    transform: rotateZ(0.9deg) rotateX(1.2deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  10% {
+    transform: rotateZ(2.2deg) rotateX(-1deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  20% {
+    transform: rotateZ(2.6deg) rotateX(-1.3deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+ 30% {
+    transform: rotateZ(2.4deg) rotateX(-2.4deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  40% {
+    transform: rotateZ(-1.5deg) rotateX(1.4deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+50% {
+    transform: rotateZ(2.2deg) rotateX(2.4deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  60% {
+    transform: rotateZ(-1.2deg) rotateX(-1.5deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  70% {
+    transform: rotateZ(-0.2deg) rotateX(-0.5deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  80% {
+    transform: rotateZ(-1.3deg) rotateX(-1deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  90% {
+    transform: rotateZ(-2.3deg) rotateX(-3deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+  100% {
+    transform: rotateZ(0.9deg) rotateX(1.2deg);
+    transform-origin: bottom right;
+    transform-box: fill-box;
+  }
+}
+
+
+@keyframes antenna_wiggle_right {
+
+  0%{
+    transform: rotateZ(1.9deg) rotateX(-2.2deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  10% {
+   transform: rotateZ(2.4deg) rotateX(-2.4deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  20% {
+    transform: rotateZ(-1.5deg) rotateX(1.4deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+ 30% {
+    transform: rotateZ(2.2deg) rotateX(-1deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  40% {
+    transform: rotateZ(2.6deg) rotateX(-1.3deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+50% {
+  transform: rotateZ(-1.2deg) rotateX(-1.5deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  60% {
+  transform: rotateZ(2.2deg) rotateX(2.4deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  70% {
+    transform: rotateZ(-0.2deg) rotateX(-0.5deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  80% {
+    transform: rotateZ(0.9deg) rotateX(1.2deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  90% {
+    transform: rotateZ(-2.3deg) rotateX(-3deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+  100% {
+    transform: rotateZ(1.9deg) rotateX(-2.2deg);
+    transform-origin: bottom left;
+    transform-box: fill-box;
+  }
+}
