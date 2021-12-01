@@ -1,4 +1,4 @@
-  .devie .l_arm {
+  .devie #l_arm {
     animation-name: wiggle_left;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -8,7 +8,7 @@
     animation-fill-mode: none;
   }
 
-  .devie .r_arm {
+  .devie #r_arm {
     animation-name: wiggle_right;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -18,7 +18,28 @@
     animation-fill-mode: none;
   }
 
-  .maggie .l_arm {
+
+  .maggie #l_arm1, #l_arm3, #l_arm4 {
+    visibility: hidden; 
+  }
+
+  .maggie #r_arm1, #r_arm3, #r_arm4, #r_arm4_2 {
+    visibility: hidden; 
+  }
+
+ .maggie #head1, #l_antenna1, #r_antenna1 {
+    visibility: hidden; 
+  }
+
+/* .maggie #head2, #l_antenna2, #r_antenna2 {
+    visibility: hidden; 
+  }*/
+
+  .maggie #head1, #display1, #dial1, #display2 {
+    visibility: hidden; 
+  }
+
+  .maggie #l_arm1, #l_arm2, #l_arm3, #l_arm4 {
     animation-name: wiggle_left;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -28,7 +49,7 @@
     animation-fill-mode: none;
   }
 
-  .maggie .r_arm {
+  .maggie #r_arm1 {
     animation-name: wave_right;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -38,7 +59,27 @@
     animation-fill-mode: none;
   }
 
-  .maggie .head {
+  .maggie #r_arm2, #r_arm3 {
+    animation-name: wave_right_bigarm;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .maggie #r_arm4_2 {
+    animation-name: wave_right_forearm;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .maggie #head1, #head2 {
     animation-name: head_wobble;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -48,7 +89,7 @@
     animation-fill-mode: none;
   }
 
-  .maggie .dial {
+  .maggie #dial1 {
     animation-name: antenna_wiggle_right;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -58,7 +99,7 @@
     animation-fill-mode: none;
   }
 
-  .devie .head {
+  .devie #head {
     animation-name: head_turn;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -68,7 +109,7 @@
     animation-fill-mode: none;
   }
 
-  .l_antenna {
+  #l_antenna, #l_antenna1, #l_antenna2 {
     animation-name: antenna_wiggle_left;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -78,7 +119,7 @@
     animation-fill-mode: none;
   }
 
-  .r_antenna {
+  #r_antenna, #r_antenna1, #r_antenna2 {
     animation-name: antenna_wiggle_right;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -167,6 +208,121 @@
   }
 
 
+  @keyframes wave_right_forearm {
+
+    0%{
+      transform: rotate(0deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+    13% {
+      transform: rotate(30deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    26% {
+      transform: rotate(0deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    39% {
+      transform: rotate(30deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    51% {
+      transform: rotate(0deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    64% {
+      transform: rotate(30deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    77% {
+      transform: rotate(0deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    91% {
+      transform: rotate(30deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 10% 90%;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes wave_right_bigarm {
+
+    0%{
+      transform: rotate(0deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+    13% {
+      transform: rotate(30deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    26% {
+      transform: rotate(0deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    39% {
+      transform: rotate(30deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    51% {
+      transform: rotate(0deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    64% {
+      transform: rotate(30deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    77% {
+      transform: rotate(0deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    91% {
+      transform: rotate(30deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 10% 70%;
+      transform-box: fill-box;
+    }
+  }
+
+
+
   @keyframes wave_right {
 
     0%{
@@ -222,7 +378,6 @@
       transform-box: fill-box;
     }
   }
-
 
 @keyframes head_turn {
   0% {
