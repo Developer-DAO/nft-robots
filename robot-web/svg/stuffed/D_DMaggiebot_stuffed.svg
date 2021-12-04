@@ -17,13 +17,13 @@
 <stop  offset="54.509803921568626%" stop-color="#333333"/>
 </linearGradient>
 
-<radialGradient id="Gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="62.03750000000002" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 594.1,659.05) " spreadMethod="pad">
+<radialGradient id="Gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="62.02499999999998" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000004, 0, 0, 1.0000000000000004, 594.05,659) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="109.38750000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999997, 0, 0, 0.9999999999999997, 516.1,620.1) " spreadMethod="pad">
+<radialGradient id="Gradient_4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="109.375" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 516.05,620.05) " spreadMethod="pad">
 <stop  offset="0.39215686274509803%" stop-color="#333333"/>
 
 <stop  offset="30.980392156862745%" stop-color="#666666"/>
@@ -33,7 +33,7 @@
 <stop  offset="97.6470588235294%" stop-color="#999999"/>
 </radialGradient>
 
-<radialGradient id="Gradient_5" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="36.137500000000045" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999988, 0, 0, 0.9999999999999988, 491.1,512.05) " spreadMethod="pad">
+<radialGradient id="Gradient_5" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="36.12499999999994" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000018, 0, 0, 1.0000000000000018, 491.05,512) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#5A5A5A"/>
 
 <stop  offset="100%" stop-color="#383838"/>
@@ -51,13 +51,7 @@
 <stop  offset="100%" stop-color="#383838"/>
 </radialGradient>
 
-<radialGradient id="Gradient_8" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="23" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, -1, 605.3,547.7) " spreadMethod="pad">
-<stop  offset="0%" stop-color="#5A5A5A"/>
-
-<stop  offset="100%" stop-color="#383838"/>
-</radialGradient>
-
-<linearGradient id="Gradient_9" gradientUnits="userSpaceOnUse" x1="582.5" y1="533.2125000000001" x2="578.5999999999999" y2="567.1875" spreadMethod="pad">
+<linearGradient id="Gradient_8" gradientUnits="userSpaceOnUse" x1="582.5" y1="533.2125000000001" x2="578.5999999999999" y2="567.1875" spreadMethod="pad">
 <stop  offset="0%" stop-color="#383838"/>
 
 <stop  offset="26.666666666666668%" stop-color="#FFFFFF"/>
@@ -66,6 +60,12 @@
 
 <stop  offset="100%" stop-color="#CCCCCC"/>
 </linearGradient>
+
+<radialGradient id="Gradient_9" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="23" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, -1, 605.3,547.7) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#5A5A5A"/>
+
+<stop  offset="100%" stop-color="#383838"/>
+</radialGradient>
 
 <radialGradient id="Gradient_10" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="24.549999999999955" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000018, 0, 0, -1.0000000000000018, 562.75,544.15) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#5A5A5A"/>
@@ -261,85 +261,85 @@
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_39" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.475000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999989, 0, 0, 0.9999999999999989, 344.4,106.35) " spreadMethod="pad">
+<radialGradient id="Gradient_39" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.462499999999977" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000013, 0, 0, 1.0000000000000013, 344.35,106.3) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_40" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.774999999999977" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000013, 0, 0, 1.0000000000000013, 471.8,112.95) " spreadMethod="pad">
+<radialGradient id="Gradient_40" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.76249999999999" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 471.75,112.9) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_41" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.80000000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999994, 0, 0, 0.9999999999999994, 471.9,113.05) " spreadMethod="pad">
+<radialGradient id="Gradient_41" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.787500000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999989, 0, 0, 0.9999999999999989, 471.85,113) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_42" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="193.68749999999994" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 416.05,225.3) " spreadMethod="pad">
+<radialGradient id="Gradient_42" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="193.67499999999995" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 416,225.25) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#D3CFCE"/>
 </radialGradient>
 
-<radialGradient id="Gradient_43" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="47.33749999999998" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 647.5,420.6) " spreadMethod="pad">
+<radialGradient id="Gradient_43" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="47.325000000000045" fx="0" fy="0" gradientTransform="matrix( 0.999999999999999, 0, 0, 0.999999999999999, 647.45,420.55) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#5A5A5A"/>
 
 <stop  offset="100%" stop-color="#292929"/>
 </radialGradient>
 
-<radialGradient id="Gradient_44" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="91.23750000000007" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999992, 0, 0, 0.9999999999999992, 563.15,499.35) " spreadMethod="pad">
+<radialGradient id="Gradient_44" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="91.22500000000002" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999999, 0, 0, 0.9999999999999999, 563.1,499.3) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#D3CFCE"/>
 </radialGradient>
 
-<radialGradient id="Gradient_45" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="47.23750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 120.4,400.5) " spreadMethod="pad">
+<radialGradient id="Gradient_45" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="47.224999999999994" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 120.35,400.45) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#5A5A5A"/>
 
 <stop  offset="100%" stop-color="#292929"/>
 </radialGradient>
 
-<radialGradient id="Gradient_46" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="94.03750000000002" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 146.5,379.45) " spreadMethod="pad">
+<radialGradient id="Gradient_46" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="94.025" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 146.45,379.4) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#DFDFDF"/>
 
 <stop  offset="100%" stop-color="#383838"/>
 </radialGradient>
 
-<radialGradient id="Gradient_47" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="87.73750000000001" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 135.5,382.45) " spreadMethod="pad">
+<radialGradient id="Gradient_47" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="87.72500000000002" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999999, 0, 0, 0.9999999999999999, 135.45,382.4) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#5A5A5A"/>
 
 <stop  offset="100%" stop-color="#383838"/>
 </radialGradient>
 
-<radialGradient id="Gradient_48" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="109.63750000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999997, 0, 0, 0.9999999999999997, 622.35,465.75) " spreadMethod="pad">
+<radialGradient id="Gradient_48" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="109.625" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 622.3,465.7) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#EAEAEA"/>
 </radialGradient>
 
-<radialGradient id="Gradient_49" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="91.58749999999998" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 621.4,400.5) " spreadMethod="pad">
+<radialGradient id="Gradient_49" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="91.57500000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999994, 0, 0, 0.9999999999999994, 621.35,400.45) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#DFDFDF"/>
 
 <stop  offset="100%" stop-color="#383838"/>
 </radialGradient>
 
-<radialGradient id="Gradient_50" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="254.83749999999998" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 577.7,490.35) " spreadMethod="pad">
+<radialGradient id="Gradient_50" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="254.82500000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999999, 0, 0, 0.9999999999999999, 577.65,490.3) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#D3CFCE"/>
 </radialGradient>
 
-<radialGradient id="Gradient_51" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="374.98750000000007" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 429.65,218.75) " spreadMethod="pad">
+<radialGradient id="Gradient_51" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="374.975" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 429.6,218.7) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#DFDFDF"/>
 
 <stop  offset="100%" stop-color="#383838"/>
 </radialGradient>
 
-<radialGradient id="Gradient_52" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="164.58749999999998" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000002, 0, 0, 1.0000000000000002, 531,364.35) " spreadMethod="pad">
+<radialGradient id="Gradient_52" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="164.57500000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 530.95,364.3) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#EAEAEA"/>
@@ -375,91 +375,91 @@
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_58" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="159.38750000000005" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999998, 0, 0, 0.9999999999999998, 358.85,663) " spreadMethod="pad">
+<radialGradient id="Gradient_58" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="159.37499999999994" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000004, 0, 0, 1.0000000000000004, 358.8,662.95) " spreadMethod="pad">
 <stop  offset="0%" stop-color="#B7AFAF"/>
 
 <stop  offset="100%" stop-color="#D3CFCE"/>
 </radialGradient>
 
-<radialGradient id="Gradient_59" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="8.487500000000011" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999987, 0, 0, 0.9999999999999987, 128.2,457.85) " spreadMethod="pad">
+<radialGradient id="Gradient_59" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="8.474999999999994" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 128.15,457.8) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_60" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="20.337499999999977" fx="0" fy="0" gradientTransform="matrix( 1.000000000000001, 0, 0, 1.000000000000001, 385.8,477.3) " spreadMethod="pad">
+<radialGradient id="Gradient_60" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="20.32499999999999" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 385.75,477.25) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_61" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="14.637499999999989" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000009, 0, 0, 1.0000000000000009, 366.05,447.25) " spreadMethod="pad">
+<radialGradient id="Gradient_61" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="14.625" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 366,447.2) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_62" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.73750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999994, 0, 0, 0.9999999999999994, 375.8,473.55) " spreadMethod="pad">
+<radialGradient id="Gradient_62" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.725000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999988, 0, 0, 0.9999999999999988, 375.75,473.5) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_63" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.787500000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999989, 0, 0, 0.9999999999999989, 397.05,478) " spreadMethod="pad">
+<radialGradient id="Gradient_63" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.774999999999977" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000013, 0, 0, 1.0000000000000013, 397,477.95) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_64" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.13749999999999" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 367.05,460.75) " spreadMethod="pad">
+<radialGradient id="Gradient_64" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.125" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 367,460.7) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_65" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.38749999999999" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 398.05,428) " spreadMethod="pad">
+<radialGradient id="Gradient_65" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.375" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 398,427.95) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_66" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.48750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999994, 0, 0, 0.9999999999999994, 382.3,428) " spreadMethod="pad">
+<radialGradient id="Gradient_66" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.475000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999988, 0, 0, 0.9999999999999988, 382.25,427.95) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_67" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="12.737500000000011" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999992, 0, 0, 0.9999999999999992, 391.25,453.3) " spreadMethod="pad">
+<radialGradient id="Gradient_67" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="12.725000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999981, 0, 0, 0.9999999999999981, 391.2,453.25) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_68" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="14.9375" fx="0" fy="0" gradientTransform="matrix( 1, 0, 0, 1, 372.55,435.5) " spreadMethod="pad">
+<radialGradient id="Gradient_68" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="14.925000000000011" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999992, 0, 0, 0.9999999999999992, 372.5,435.45) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_69" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.73750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999996, 0, 0, 0.9999999999999996, 408.8,470.75) " spreadMethod="pad">
+<radialGradient id="Gradient_69" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="19.725000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999989, 0, 0, 0.9999999999999989, 408.75,470.7) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_70" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.287500000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999987, 0, 0, 0.9999999999999987, 417.05,450) " spreadMethod="pad">
+<radialGradient id="Gradient_70" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.274999999999977" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000013, 0, 0, 1.0000000000000013, 417,449.95) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_71" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.837499999999977" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000013, 0, 0, 1.0000000000000013, 413.8,460.25) " spreadMethod="pad">
+<radialGradient id="Gradient_71" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="17.82499999999999" fx="0" fy="0" gradientTransform="matrix( 1.0000000000000007, 0, 0, 1.0000000000000007, 413.75,460.2) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
 </radialGradient>
 
-<radialGradient id="Gradient_72" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.73750000000001" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999993, 0, 0, 0.9999999999999993, 409.8,435.75) " spreadMethod="pad">
+<radialGradient id="Gradient_72" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="16.725000000000023" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999988, 0, 0, 0.9999999999999988, 409.75,435.7) " spreadMethod="pad">
 <stop  offset="0.7843137254901961%" stop-color="#B096FF"/>
 
 <stop  offset="100%" stop-color="#6633FF"/>
@@ -600,12 +600,12 @@ M 350.3 788.4
 Q 366.892578125 798.666796875 385.35 792.15
 M 350.075 749.65
 Q 368.35234375 757.0189453125 384.725 749.15
-M 450.15 719.1
-Q 469.4578125 724.051953125 484.95 715.65
 M 449.55 707.1
 Q 469.03984375 713.1091796875 484.575 703.3
 M 450.675 729.6
 Q 467.9875 734.026171875 485.3 727.15
+M 450.15 719.1
+Q 469.4578125 724.051953125 484.95 715.65
 M 451.25 741.2
 Q 469.4578125 748.908203125 485.675 738.7
 M 453.075 777.1
@@ -626,7 +626,7 @@ L 350.35 797.15"/>
 </g>
 </g>
 
-<g id="r_arm1">
+<g id="r_arm_magnet">
 <g transform="matrix( 1, 0, 0, 1, 0,-6) ">
 <g>
 <g>
@@ -703,7 +703,7 @@ Q 595.080078125 496.846875 604.775 498.225"/>
 </g>
 </g>
 
-<g id="r_arm2">
+<g id="r_arm_buff">
 <g transform="matrix( 0.86602783203125, 0.4999847412109375, 0.4999847412109375, -0.86602783203125, -165.75,721.8) ">
 <g>
 <g>
@@ -740,7 +740,7 @@ L 518.05 520.55 Z"/>
 </g>
 </g>
 
-<g id="r_arm3">
+<g id="r_arm_jumbo_wrench">
 <g transform="matrix( 1, 0, 0, 1, 0,-6) ">
 <g>
 <g>
@@ -837,7 +837,7 @@ Q 594.7778625488281 515.3634338378905 579.2815673828126 487.24020996093736"/>
 </g>
 </g>
 
-<g id="r_arm4">
+<g id="r_arm_hinged_wrench">
 <g>
 <g>
 <g>
@@ -853,19 +853,19 @@ L 595.6 530.3
 Q 594.85 528.35 593.65 527.85 593.25 527.7 592.8 527.7 591 527.7 589.35 530.3 Z"/>
 
 <path fill="url(#Gradient_8)" stroke="none" d="
+M 596.1 539.2
+Q 596.8 534.45 595.85 531.05 595.75 530.65 595.6 530.3
+L 589.35 530.3 570 528.9
+Q 571.65 537.1 567 544.6
+L 586.5 546.75 593.4 547.65
+Q 593.5 547.45 593.6 547.3 595.45 543.95 596.1 539.2 Z"/>
+
+<path fill="url(#Gradient_9)" stroke="none" d="
 M 610.85 527.9
 L 610.85 527.85 593.65 527.85
 Q 594.85 528.35 595.6 530.3 595.75 530.65 595.85 531.05 596.8 534.45 596.1 539.2 595.45 543.95 593.6 547.3 593.5 547.45 593.4 547.65 591.65 550.55 589.75 550.65
 L 609.85 553.85
 Q 617.4 540 610.85 527.9 Z"/>
-
-<path fill="url(#Gradient_9)" stroke="none" d="
-M 595.85 531.05
-Q 595.75 530.65 595.6 530.3
-L 589.35 530.3 570 528.9
-Q 571.65 537.1 567 544.6
-L 586.5 546.75 593.4 547.65
-Q 593.5 547.45 593.6 547.3 595.45 543.95 596.1 539.2 596.8 534.45 595.85 531.05 Z"/>
 
 <path fill="url(#Gradient_10)" stroke="none" d="
 M 553.25 522.2
@@ -882,7 +882,7 @@ Q 551.55 516.4 547.4 511.7 540.2 503.65 530 503.65 526.9 503.65 524.1 504.4 519.
 </g>
 </g>
 
-<g id="r_arm4_2">
+<g id="r_arm_hinged_wrench_forearm">
 <g transform="matrix( 1, 0, 0, 1, -8,-6) ">
 <g>
 <g>
@@ -904,8 +904,8 @@ Q 645.45 530.3 645.8 530.65 648.9 533.7 648.15 536.6 647.35 539.5 642.35 540.5 6
 L 631.35 518.75 Z"/>
 
 <path fill="#666666" stroke="none" d="
-M 685.1 432.6
-L 682.15 445.55 694.85 448.95 702.7 417.55 685.1 432.6 Z"/>
+M 702.7 417.55
+L 685.1 432.6 682.15 445.55 694.85 448.95 702.7 417.55 Z"/>
 
 <path fill="url(#Gradient_13)" stroke="none" d="
 M 663.7 486.1
@@ -945,16 +945,16 @@ L 685.1 432.6 682.15 445.55"/>
 </g>
 </g>
 
-<g id="l_arm1">
+<g id="l_arm_magnet">
 <g>
 <g>
 <g>
 <path fill="url(#Gradient_16)" stroke="none" d="
-M 268.05 670.15
+M 268.05 694.15
+L 268.05 670.15
 Q 224.45 681.7 177.05 670.15
 L 177.05 694.15
-Q 222.55 711.85 268.05 694.15
-L 268.05 670.15 Z"/>
+Q 222.55 711.85 268.05 694.15 Z"/>
 
 <path fill="#161419" stroke="none" d="
 M 249.7 558.2
@@ -967,8 +967,8 @@ M 258.25 525.15
 Q 253.75 528.4 249.6 532.25 258.9 533.85 263.1 544.05 266.4 541.35 270.1 538.95 269.05 529.1 258.25 525.15
 M 281.15 513.15
 Q 274.75 515.4 268.9 518.55 277.1 522.85 278 534.45 282 532.45 286.35 530.75 288.65 521.95 281.15 513.15
-M 302.6 508.1
-Q 308.55 516.85 303.05 525.6 307.95 524.4 313.2 523.55 317.55 516.3 312.65 507.25 307.5 507.5 302.6 508.1
+M 313.2 523.55
+Q 317.55 516.3 312.65 507.25 307.5 507.5 302.6 508.1 308.55 516.85 303.05 525.6 307.95 524.4 313.2 523.55
 M 291.15 510.2
 Q 290.6 510.3 290.1 510.45 285.5 511.6 281.15 513.15 288.65 521.95 286.35 530.75 288.2 530 290.1 529.35 291.35 528.9 292.65 528.5 293.8 528.1 295 527.75 298.45 518.95 293.15 510.2 298.45 518.95 295 527.75 298.9 526.55 303.05 525.6 308.55 516.85 302.6 508.1 296.7 508.85 291.15 510.2
 M 320.8 507.15
@@ -1007,10 +1007,10 @@ Q 275.05 645.9 268.05 618.15 257.6 595.4 236.65 588.45
 M 177.05 670.15
 Q 170.65 637.65 192.4 602.2 200.85 588.45 216.1 586.3
 M 177.05 670.15
-Q 224.45 681.7 268.05 670.15
-L 268.05 694.15
-Q 222.55 711.85 177.05 694.15
-L 177.05 670.15 Z"/>
+L 177.05 694.15
+Q 222.55 711.85 268.05 694.15
+L 268.05 670.15
+Q 224.45 681.7 177.05 670.15 Z"/>
 </g>
 
 <g>
@@ -1029,27 +1029,27 @@ M 225.5 564.6
 Q 236.3 565.75 241.35 573.4
 M 221 575.4
 Q 229.6 573.15 238.2 582.3
-M 302.6 508.1
-Q 308.55 516.85 303.05 525.6
-M 293.15 510.2
-Q 298.45 518.95 295 527.75
 M 312.65 507.25
 Q 317.55 516.3 313.2 523.55
+M 293.15 510.2
+Q 298.45 518.95 295 527.75
+M 302.6 508.1
+Q 308.55 516.85 303.05 525.6
 M 249.6 532.25
 Q 258.9 533.85 263.1 544.05
 M 258.25 525.15
 Q 269.05 529.1 270.1 538.95
 M 268.9 518.55
 Q 277.1 522.85 278 534.45
-M 243.05 538.9
-Q 253.2 544 255.55 551.1
 M 281.15 513.15
-Q 288.65 521.95 286.35 530.75"/>
+Q 288.65 521.95 286.35 530.75
+M 243.05 538.9
+Q 253.2 544 255.55 551.1"/>
 </g>
 </g>
 </g>
 
-<g id="l_arm2">
+<g id="l_arm_buff">
 <g transform="matrix( 1, 0, 0, 1, 7,3.95) ">
 <g>
 <g>
@@ -1087,7 +1087,7 @@ Q 295.737890625 545.6443359375 295.8 545.7 301.0064453125 548.25 307.25 548.25 3
 </g>
 </g>
 
-<g id="l_arm3">
+<g id="l_arm_jumbo_wrench">
 <g transform="matrix( 1, 0, 0, 1, 0,-6) ">
 <g>
 <g>
@@ -1196,7 +1196,7 @@ Q 191.7416015625 600.9685546875 217.4 611.4"/>
 </g>
 </g>
 
-<g id="l_arm4">
+<g id="l_arm_hinged_wrench">
 <g transform="matrix( 1, 0, 0, -1, -3.7,954.15) ">
 <g>
 <g>
@@ -1254,12 +1254,12 @@ M 315.25 399.4
 Q 310.55 401.45 306.75 405.75 302.5916015625 410.4318359375 300.85 416.25 299.6 420.4884765625 299.6 425.3 299.6 433.5041015625 303.25 440 304.723046875 442.5896484375 306.75 444.9 308.3 446.6 309.95 447.95 313.75 451 318.25 452.2 321.05 452.95 324.15 452.95 334.35 452.95 341.55 444.9 345.7 440.2 347.4 434.4 348.7 430.15 348.7 425.3 348.7 417.15 345.1 410.75 343.65 408.1 341.55 405.75 334.35 397.6 324.15 397.6 319.35 397.6 315.25 399.4 Z"/>
 
 <path fill="url(#Gradient_27)" stroke="none" d="
-M 189.2 374.1
-Q 189.0796875 374.16796875 188.95 374.2
+M 196.85 372.15
+Q 193.2107421875 373.5240234375 189.2 374.1 189.0796875 374.16796875 188.95 374.2
 L 191.45 380.05 208.2 419.6 210.05 423.95 212 428.55
 Q 223.936328125 433.4244140625 227.8 423.05
 L 226.5 419.65 223.8 412.65 208.85 373.1 206.5 366.8
-Q 203.8470703125 368.8392578125 200.95 370.35 199.1255859375 371.5447265625 196.85 372.15 193.2107421875 373.5240234375 189.2 374.1 Z"/>
+Q 203.8470703125 368.8392578125 200.95 370.35 199.1255859375 371.5447265625 196.85 372.15 Z"/>
 
 <path fill="url(#Gradient_28)" stroke="none" d="
 M 221.8 340.2
@@ -1369,7 +1369,7 @@ L 450.55 444.15"/>
 </g>
 </g>
 
-<g id="head1">
+<g id="head_walkie_talkie">
 <g transform="matrix( 1, 0, 0, 1, 0,-6) ">
 <g>
 <g>
@@ -1477,7 +1477,7 @@ L 395.45 454.775"/>
 </g>
 </g>
 
-<g id="l_antenna1">
+<g id="l_antenna_walkie_talkie">
 <g>
 <g>
 <path stroke="#333333" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
@@ -1503,7 +1503,7 @@ Q 151.9 229.9 141.1 237.4 130.3 244.95 117.45 242.55 104.5 240.3 97 229.4 89.55 
 </g>
 </g>
 
-<g id="l_antenna2">
+<g id="l_antenna_jumbo_screen">
 <g transform="matrix( 0.973419189453125, -0.22900390625, 0.22900390625, 0.973419189453125, -40.2,58) ">
 <g transform="matrix( 0.973419189453125, 0.22900390625, -0.22900390625, 0.973419189453125, 52.4,-47.25) ">
 <path stroke="#333334" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
@@ -1512,7 +1512,7 @@ Q 323.63084411621094 104.56753692626954 327.0519790649414 107.97459564208984 330
 </g>
 </g>
 
-<g transform="matrix( 1.592864990234375, -0.3747406005859375, 0.3747406005859375, 1.592864990234375, -280.95,38.6) ">
+<g transform="matrix( 1.59283447265625, -0.374725341796875, 0.374725341796875, 1.59283447265625, -280.9,38.6) ">
 <g>
 <g>
 <path fill="url(#Gradient_39)" stroke="none" d="
@@ -1521,15 +1521,15 @@ Q 336.7 87.3 331 92.95 325.35 98.65 325.35 106.65 325.35 114.65 331 120.3 336.7 
 </g>
 </g>
 
-<g transform="matrix( 0.5948638916015625, 0.1399383544921875, -0.1399383544921875, 0.5948638916015625, 172.5,16.35) ">
+<g transform="matrix( 0.594879150390625, 0.1399383544921875, -0.1399383544921875, 0.594879150390625, 172.5,16.3) ">
 <path stroke="#333334" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 338.8985847473145 72.05473556518552
-Q 341.896509552002 84.79765548706052 334.9344635009766 95.9333641052246 328.0707977294922 107.1299789428711 315.3278778076172 110.1279037475586 302.5849578857422 113.1258285522461 291.36960601806646 106.18251953125 280.2526344299317 99.30011672973632 277.2547096252442 86.55719680786132 274.2567848205567 73.81427688598632 281.120450592041 62.617662048339845 288.08249664306646 51.481953430175786 300.82541656494146 48.4840286254883 313.56833648681646 45.4861038208008 324.68530807495114 52.36850662231445 335.900659942627 59.31181564331053 338.8985847473145 72.05473556518552 Z"/>
+M 338.9358474731446 72.05703582763672
+Q 341.9336502075196 84.79971160888672 334.9716918945313 95.93516082763671 328.10811157226567 107.13151550292969 315.36543579101567 110.12931823730469 302.62276000976567 113.12712097167969 291.4076690673828 106.18389892578125 280.2909561157228 99.30158233642578 277.2931533813478 86.55890655517578 274.2953506469728 73.81623077392578 281.1589309692383 62.61987609863281 288.1208892822266 51.484426879882825 300.8635650634766 48.486624145507825 313.6062408447266 45.488821411132825 324.72295379638683 52.371138000488266 335.9380447387696 59.31436004638673 338.9358474731446 72.05703582763672 Z"/>
 </g>
 </g>
 </g>
 
-<g id="r_antenna1">
+<g id="r_antenna_walkie_talkie">
 <g>
 <g>
 <path stroke="#333333" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
@@ -1555,7 +1555,7 @@ Q 627.9790100097655 135.04259338378907 617.1786804199219 142.5700958251953 606.3
 </g>
 </g>
 
-<g id="r_antenna2">
+<g id="r_antenna_jumbo_screen">
 <g transform="matrix( 0.973419189453125, -0.22900390625, 0.22900390625, 0.973419189453125, -45.25,71.75) ">
 <g transform="matrix( 0.973419189453125, 0.22900390625, -0.22900390625, 0.973419189453125, 60.45,-59.45) ">
 <path stroke="#333334" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
@@ -1564,7 +1564,7 @@ Q 420.7806091308594 195.10321044921878 421.6513122558594 184.8308898925781 422.3
 </g>
 </g>
 
-<g transform="matrix( 1.59283447265625, -0.374725341796875, 0.374725341796875, 1.59283447265625, -343.8,59.9) ">
+<g transform="matrix( 1.592803955078125, -0.3747100830078125, 0.3747100830078125, 1.592803955078125, -343.75,59.95) ">
 <g>
 <g>
 <path fill="url(#Gradient_41)" stroke="none" d="
@@ -1573,16 +1573,16 @@ Q 492.75 109 488.15 102.4 483.55 95.85 475.7 94.4 467.8 93 461.2 97.5 454.65 102
 </g>
 </g>
 
-<g transform="matrix( 0.594879150390625, 0.1399383544921875, -0.1399383544921875, 0.594879150390625, 212.9,12.45) ">
+<g transform="matrix( 0.5948944091796875, 0.1399383544921875, -0.1399383544921875, 0.5948944091796875, 212.85,12.4) ">
 <path stroke="#333334" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 482.6446105957032 61.9810531616211
-Q 483.27659454345695 75.02815551757814 474.4876235961913 84.82838134765623 465.6986526489258 94.62860717773438 452.6515502929688 95.26059112548828 439.5435424804687 95.99095306396484 429.72458038330086 87.1223403930664 420.0039962768554 78.31463317871092 419.37201232910155 65.26753082275391 418.6416503906249 52.1595230102539 427.3509796142578 42.37803344726563 436.1774230957031 32.73709106445312 449.2854309082032 32.006729125976584 462.3325332641601 31.374745178222632 472.1140228271484 40.084074401855496 481.91424865722655 48.87304534912109 482.6446105957032 61.9810531616211 Z"/>
+M 482.67783203125 62.03498306274413
+Q 483.309740447998 75.08182373046877 474.5209007263185 84.88180847167969 465.7320610046386 94.68179321289061 452.6852203369141 95.31370162963866 439.5774749755859 96.043985748291 429.7587547302246 87.17550582885742 420.0384101867677 78.36793060302735 419.40650177001953 65.32108993530274 418.6762176513672 52.213344573974624 427.3854171752929 42.43209533691406 436.2117279052735 32.791390991210946 449.31947326660145 32.0611068725586 462.3663139343263 31.42919845581055 472.14756317138665 40.138397979736354 481.94754791259766 48.92723770141602 482.67783203125 62.03498306274413 Z"/>
 </g>
 </g>
 </g>
 
-<g id="head2">
-<g transform="matrix( 0.8714447021484375, -0.1457366943359375, 0.1457366943359375, 0.8714447021484375, 8.6,51.6) ">
+<g id="head_jumbo_screen">
+<g transform="matrix( 0.871429443359375, -0.1457366943359375, 0.1457366943359375, 0.871429443359375, 8.6,51.6) ">
 <g>
 <g>
 <path fill="url(#Gradient_42)" stroke="none" d="
@@ -1660,7 +1660,7 @@ Q 519.65 504.4 563.25 496.9 569.3 479.1 574.25 460.3 574.3 460.05 574.4 459.8 59
 </g>
 </g>
 
-<g transform="matrix( 0.8714447021484375, -0.1457366943359375, 0.1457366943359375, 0.8714447021484375, 8.6,51.6) ">
+<g transform="matrix( 0.871429443359375, -0.1457366943359375, 0.1457366943359375, 0.871429443359375, 8.6,51.6) ">
 <g>
 <g>
 <path fill="#2E3131" stroke="none" d="
@@ -1671,7 +1671,7 @@ Q 553.6 262.85 530.9 259.95 405.35 243.5 282.95 252.95 258.65 253.15 251.95 267.
 </g>
 </g>
 
-<g id="display1">
+<g id="display_gastank">
 <g transform="matrix( 1, 0, 0, 1, 0,-6) ">
 <g>
 <g>
@@ -1843,7 +1843,7 @@ Q 406.2 629.6 406.2 627.95 406.2 620.95 411.15 615.95 416.1 611 423.15 611 423.4
 </g>
 </g>
 
-<g id="dial1">
+<g id="display_gastank_dial">
 <g transform="matrix( 1, 0, 0, 1, 0,-3) ">
 <g>
 <path stroke="#6600FF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
@@ -1855,8 +1855,8 @@ L 434.1 562.55"/>
 </g>
 </g>
 
-<g id="display2">
-<g transform="matrix( 0.8532867431640625, 0, 0, 0.8532867431640625, 82.85,70.65) ">
+<g id="display_heartbeat">
+<g transform="matrix( 0.853240966796875, 0, 0, 0.853240966796875, 82.85,70.65) ">
 <g>
 <g>
 <path fill="url(#Gradient_58)" stroke="none" d="
@@ -1873,62 +1873,62 @@ L 329.35 575.25 329.35 613.9 352.4 613.9 360.4 592.8 368.95 625.9 377.95 601.3 3
 </g>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -97.05,-82.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -97.1,-82.8) ">
 <path stroke="#9C9C9D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 491.48902130126953 640.3042297363281
-L 352.74459686279295 640.3042297363281 351.8913101196289 546.9119956970214"/>
+M 491.4670989990234 640.2736694335938
+L 352.73011779785156 640.2736694335938 351.8768768310547 546.8864456176758"/>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -97.05,-82.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -97.1,-82.8) ">
 <path stroke="#3D464B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 476.9404823303223 559.7966255187988
-L 363.87998886108403 561.5031990051269"/>
+M 476.9193405151367 559.7703842163086
+L 363.86491241455076 561.4768661499023"/>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -97.05,-82.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -97.1,-82.8) ">
 <path stroke="#66FFFF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 363.87998886108403 594.4827316284179
-L 383.5482482910156 594.4827316284179 390.3745422363281 576.4783813476562 397.6701438903808 604.7221725463867 405.3497245788574 583.7313186645507 410.512109375 599.6024520874023 418.6609977722168 573.0225700378418 422.9274314880371 612.0177742004395 430.6496765136719 579.8915283203124 437.0493270874024 602.5889556884765 446.0515022277832 582.0247451782226 450.3179359436035 603.0155990600585 455.9069641113281 591.4535636901855 476.9404823303223 591.4535636901855"/>
+M 363.86491241455076 594.4546295166015
+L 383.5321166992187 594.4546295166015 390.3580444335937 576.4512451171875 397.65325469970696 604.693521118164 405.33242340087884 583.7037933349609 410.49453125 599.5740753173827 418.64298248291016 572.9956192016601 422.90918731689453 611.9887313842773 430.6310180664062 579.864208984375 437.0303253173828 602.5604187011718 446.0320175170898 581.9973114013671 450.2982223510742 602.9870391845702 455.8869506835937 591.4256240844727 476.9193405151367 591.4256240844727"/>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -97.05,-82.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -97.1,-82.8) ">
 <path stroke="#CCCCCC" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 363.87998886108403 627.4622642517089
-L 476.9404823303223 627.4622642517089"/>
+M 363.86491241455076 627.4323928833007
+L 476.9193405151367 627.4323928833007"/>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -97.05,-82.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -97.1,-82.8) ">
 <path stroke="#CECAC3" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 351.8913101196289 546.9119956970214
-L 491.48902130126953 546.9119956970214 491.48902130126953 640.3042297363281"/>
+M 351.8768768310547 546.8864456176758
+L 491.4670989990234 546.8864456176758 491.4670989990234 640.2736694335938"/>
 </g>
 </g>
 
-<g transform="matrix( 0.8532867431640625, 0, 0, 0.8532867431640625, 81.2,71.5) ">
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -95.15,-83.75) ">
+<g transform="matrix( 0.853240966796875, 0, 0, 0.853240966796875, 81.25,71.5) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -95.2,-83.75) ">
 <path stroke="#3D464B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 476.57041244506837 628.4829216003418
-L 476.57041244506837 560.8172828674317"/>
+M 476.59920196533204 628.4530410766602
+L 476.59920196533204 560.791032409668"/>
 </g>
 
-<g transform="matrix( 1.17193603515625, 0, 0, 1.17193603515625, -95.15,-83.75) ">
+<g transform="matrix( 1.1719970703125, 0, 0, 1.1719970703125, -95.2,-83.75) ">
 <path stroke="#CCCCCC" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 363.5099189758301 562.5238563537598
-L 363.5099189758301 628.4829216003418"/>
+M 363.5447738647461 562.4975143432617
+L 363.5447738647461 628.4530410766602"/>
 </g>
 </g>
 </g>
 
-<g id="display3">
-<g transform="matrix( 1, 0, 0, 1, 0,-6) ">
+<g id="display_lightwheel">
+<g>
 <g>
 <path stroke="#666666" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 330.45 575.3
-L 376.2 549.6 471.15 549.6 513.25 569.9"/>
+M 327.95 569.8
+L 376.2 543.6 471.15 543.6 514.75 564.4"/>
 </g>
 </g>
 
-<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 240.85,-29) ">
+<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 237.35,-29) ">
 <g>
 <g>
 <path fill="url(#Gradient_59)" stroke="none" d="
@@ -1938,7 +1938,7 @@ Q 136 461.1 136 457.9 136 454.7 133.7 452.4 131.45 450.15 128.25 450.15 125.05 4
 </g>
 </g>
 
-<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 274.2,-29.05) ">
+<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 270.7,-29.05) ">
 <g>
 <g>
 <path fill="url(#Gradient_59)" stroke="none" d="
@@ -1948,7 +1948,7 @@ Q 136 461.1 136 457.9 136 454.7 133.7 452.4 131.45 450.15 128.25 450.15 125.05 4
 </g>
 </g>
 
-<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 306.6,-29) ">
+<g transform="matrix( 1.19451904296875, 0, 0, 1.19451904296875, 303.1,-29) ">
 <g>
 <g>
 <path fill="url(#Gradient_59)" stroke="none" d="
@@ -1974,7 +1974,7 @@ L 355.1 435.15 Z"/>
 </g>
 </g>
 
-<g transform="matrix( 1.1944732666015625, 0, 0, 1.1944732666015625, -43.15,70.45) ">
+<g transform="matrix( 1.194427490234375, 0, 0, 1.194427490234375, -43.15,70.45) ">
 <g>
 <g>
 <path fill="#FFFFFF" stroke="none" d="
@@ -1988,20 +1988,20 @@ Q 403.8 496.7 412.8 490.15 416.05 487.75 419 484.5 423.8 479.2 426.55 473 426.55
 </g>
 </g>
 
-<g transform="matrix( 0.837188720703125, 0, 0, 0.837188720703125, 36.1,-58.95) ">
+<g transform="matrix( 0.83721923828125, 0, 0, 0.83721923828125, 36.1,-58.95) ">
 <path stroke="#999999" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
-M 470.53322830200204 614.0547836303712
-Q 470.53322830200204 614.4131256103516 470.53322830200204 614.771467590332 470.53322830200204 614.9506385803223 470.53322830200204 615.1895332336427 470.3540573120117 625.9995162963868 466.47201919555664 635.1372367858887 466.3525718688965 635.2566841125489 466.3525718688965 635.4358551025391 463.0677703857422 642.8415893554687 457.3342987060547 649.1722976684571 453.8106025695801 653.0543357849122 449.92856445312503 655.9210716247559 439.178305053711 663.7448715209961 425.5613098144531 663.7448715209961
-L 425.5015861511231 663.7448715209961
-Q 425.3821388244629 663.7448715209961 425.26269149780273 663.7448715209961 413.198511505127 663.685147857666 403.4635543823242 657.533610534668 403.1052124023438 657.3544395446778 402.86631774902344 657.1752685546875 397.909253692627 653.9501907348633 393.6091499328613 649.1722976684571 388.95070419311526 644.0360626220703 385.96452102661135 638.1831436157228 385.78535003662114 637.8845252990724 385.66590270996096 637.585906982422 380.4102203369141 627.014818572998 380.4102203369141 614.0547836303712 380.4102203369141 612.8603103637696 380.46994400024414 611.665837097168 380.46994400024414 611.3672187805176 380.46994400024414 611.1283241271973 381.0074569702149 599.6613807678224 385.78535003662114 590.22504196167
-L 385.8450736999512 590.1653182983399
-Q 387.03954696655273 587.7166481018068 388.5923622131348 585.3874252319337 390.8021377563477 582.0429000854492 393.6091499328613 578.9372695922851 396.1772674560547 576.0705337524414 398.98427963256836 573.8010345458985 399.04400329589845 573.7413108825684 399.10372695922854 573.6815872192383 409.7942626953125 565.021656036377 423.4709815979004 564.4244194030762 423.5307052612305 564.3646957397461 423.65015258789066 564.4244194030762 424.54600753784183 564.3646957397461 425.5015861511231 564.3646957397461 440.07416000366214 564.3646957397461 451.3619323730469 573.3232452392579
-L 451.421656036377 573.3232452392579
-Q 454.467562866211 575.771915435791 457.3342987060547 578.9372695922851 460.1413108825684 582.0429000854492 462.35108642578126 585.3874252319337 464.3219673156739 588.3736083984376 465.8150588989258 591.5389625549317 465.8150588989258 591.6584098815919 465.93450622558595 591.8375808715821 470.53322830200204 601.8711563110352 470.53322830200204 614.0547836303712 Z"/>
+M 470.51354217529297 614.0339508056642
+Q 470.51354217529297 614.3922790527344 470.51354217529297 614.7506072998048 470.51354217529297 614.92977142334 470.51354217529297 615.1686569213867 470.33437805175777 625.9782257080079 466.4524887084961 635.1155960083008 466.3330459594727 635.2350387573243 466.3330459594727 635.4142028808594 463.0483703613282 642.8196533203126 457.31511840820315 649.1501190185547 453.7915573120118 653.0320083618165 449.90966796875006 655.8986343383789 439.1598205566407 663.7221343994141 425.54334716796876 663.7221343994141
+L 425.48362579345707 663.7221343994141
+Q 425.3641830444336 663.7221343994141 425.24474029541017 663.7221343994141 413.181022644043 663.6624130249023 403.4464385986328 657.5111114501954 403.08811035156253 657.3319473266603 402.84922485351564 657.1527832031251 397.892350769043 653.9278289794922 393.59241180419923 649.1501190185547 388.9341445922852 644.014080810547 385.94807586669924 638.1613861083985 385.7689117431641 637.8627792358399 385.64946899414065 637.5641723632813 380.3939880371094 626.9934890747071 380.3939880371094 614.0339508056642 380.3939880371094 612.8395233154298 380.4537094116211 611.6450958251954 380.4537094116211 611.3464889526368 380.4537094116211 611.1076034545898 380.9912017822266 599.6410995483399 385.7689117431641 590.2051223754883
+L 385.8286331176758 590.1454010009767
+Q 387.02306060791017 587.6968246459961 388.57581634521483 585.3676910400392 390.7855072021485 582.0232940673828 393.59241180419923 578.9177825927734 396.1604309082032 576.051156616211 398.9673355102539 573.7817443847656 399.0270568847656 573.7220230102539 399.08677825927737 573.6623016357422 409.776904296875 565.002702331543 423.4530990600586 564.4054885864258 423.5128204345703 564.3457672119141 423.6322631835938 564.4054885864258 424.5280838012696 564.3457672119141 425.48362579345707 564.3457672119141 440.05564117431646 564.3457672119141 451.3429809570313 573.3039733886719
+L 451.402702331543 573.3039733886719
+Q 454.44849243164066 575.7525497436524 457.31511840820315 578.9177825927734 460.12202301025394 582.0232940673828 462.3317138671875 585.3676910400392 464.30251922607425 588.3537597656251 465.7955535888672 591.5189926147461 465.7955535888672 591.6384353637696 465.9149963378906 591.8175994873047 470.51354217529297 601.8507904052734 470.51354217529297 614.0339508056642 Z"/>
 </g>
 </g>
 
-<g transform="matrix( 1.1944732666015625, 0, 0, 1.1944732666015625, -43.15,70.45) ">
+<g transform="matrix( 1.194427490234375, 0, 0, 1.194427490234375, -43.15,70.45) ">
 <g>
 <g>
 <path fill="url(#Gradient_60)" stroke="none" d="
