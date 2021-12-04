@@ -1,5 +1,5 @@
-import { Global } from '@emotion/react';
 import { useState } from 'react';
+import { Global } from '@emotion/react';
 import './App.css';
 
 // Robot Base
@@ -8,14 +8,14 @@ import { ReactComponent as JohnnyBot } from './assets/D_DJohnnybot_stuffed.svg';
 import { ReactComponent as MaggieBot } from './assets/D_DMaggiebot_stuffed.svg';
 import { ReactComponent as SwervieBot } from './assets/D_DSwerviebot_stuffed.svg';
 
-const bots = {
+export const bots = {
   Devie: <DevieBot />,
   Johnny: <JohnnyBot />,
   Maggie: <MaggieBot />,
   Swervie: <SwervieBot />,
 };
 
-interface RobotConfig {
+interface Traits {
   base: 'Devie' | 'Maggie' | 'Johnny' | 'Swervie';
   arms: string;
   chest: string;
@@ -28,7 +28,7 @@ interface Metadata {
   value: string;
 }
 
-function formatMetadata(config: RobotConfig) {
+function formatMetadata(config: Traits) {
   let attributes: Metadata[] = [];
 
   for (const [key, value] of Object.entries(config)) {
@@ -38,26 +38,35 @@ function formatMetadata(config: RobotConfig) {
 }
 
 function App() {
-  const [robot, setRobot] = useState<RobotConfig>({
+  const [tokenCount, setTokenCount] = useState(0);
+  const [combinations, setCombinations] = useState<Traits[]>([]);
+  const [traits, setTraits] = useState<Traits>({
     base: 'Devie',
-    chest: '',
-    arms: '',
+    chest: 'lightbulb',
+    arms: 'thick',
     color: 'gray',
-    background: '',
+    background: 'blue',
   });
 
   const generateBot = (e: any) => {
     console.log('Do generator logic', e);
+    const robot = traits;
+
+    // Ensure combo is unique
+    if (!combinations.indexOf(robot)) {
+    } else {
+    }
   };
 
   return (
     <>
       <Global styles={{}} />
-      <div>
-        <div>
+      <div id="workspace">
+        <div id="dock">
           <button onClick={generateBot}>Generate</button>
+          <div className="traits"></div>
         </div>
-        <div>{bots[robot.base]}</div>
+        <div id="art-preview">{bots[traits.base]}</div>
       </div>
     </>
   );
