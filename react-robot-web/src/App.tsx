@@ -35,14 +35,14 @@ function App() {
   const [combinations, setCombinations] = useState<Traits[]>([]);
   const [traits, setTraits] = useState<Traits>({
     base: 'Devie',
-    chest: 'lightbulb',
-    arms: 'thick',
+    background: '#d0e4ff',
     color: 'gray',
-    background: 'blue',
+    arms: 'arm1',
+    chest: 'default',
   });
 
   /**
-   * Uses rarity table to create a set of Traits and confirm
+   * This function uses rarity tables to create a set of Traits and confirm
    * that the combination is unique
    */
 

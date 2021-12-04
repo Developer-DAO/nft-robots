@@ -37,6 +37,7 @@ h1 {
   padding: 10px 20px;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 
 .robot-count {

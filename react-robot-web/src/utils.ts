@@ -24,6 +24,7 @@ export function formatMetadata(config: Traits) {
 
 /**
  * Utility function to check if object is unique inside an array of objects
+ *
  * @param obj the target object
  * @param list the array of objects for comparison
  * @returns boolean
