@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#dock {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  border-right: 1px solid gainsboro;
+  background: #f7f7f7;
+  padding: 20px;
+  overflow: scroll;
+  padding-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.generate-btn {
+  display: flex;
+  margin: 30px auto;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.robot-count {
+  display: flex;
+  align-items: center;
+}
+
+.robot-count h4 {
+  margin-right: 10px;
+}
+
+.traits h4 {
+  margin-top: 0;
+}
+
+.trait-container {
+  background: #fff;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+
+pre {
+  margin: 0;
+}
+
+.metadata {
+  margin-bottom: 50px;
+}
+
+#art-preview {
+  position: fixed;
+  left: 400px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#art-preview svg {
+  height: 500px;
+  width: auto;
+}
