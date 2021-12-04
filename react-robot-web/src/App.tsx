@@ -1,41 +1,34 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import Chance from 'chance';
 import { Global } from '@emotion/react';
-import './App.css';
 
-// Robot Base
+import type { Traits } from './types';
 import { ReactComponent as DevieBot } from './assets/D_DDeviebot_stuffed.svg';
 import { ReactComponent as JohnnyBot } from './assets/D_DJohnnybot_stuffed.svg';
 import { ReactComponent as MaggieBot } from './assets/D_DMaggiebot_stuffed.svg';
 import { ReactComponent as SwervieBot } from './assets/D_DSwerviebot_stuffed.svg';
+import {
+  bg,
+  bg_rarity,
+  base,
+  base_rarity,
+  color,
+  color_rarity,
+  arm,
+  arm_rarity,
+  chest,
+  chest_rarity,
+} from './rarity';
+import { containsObject } from './utils';
 
-export const bots = {
+var chance = new Chance();
+
+const bots = {
   Devie: <DevieBot />,
   Johnny: <JohnnyBot />,
   Maggie: <MaggieBot />,
   Swervie: <SwervieBot />,
 };
-
-interface Traits {
-  base: 'Devie' | 'Maggie' | 'Johnny' | 'Swervie';
-  arms: string;
-  chest: string;
-  color: 'gray' | 'red';
-  background: string;
-}
-
-interface Metadata {
-  trait_type: string;
-  value: string;
-}
-
-function formatMetadata(config: Traits) {
-  let attributes: Metadata[] = [];
-
-  for (const [key, value] of Object.entries(config)) {
-    attributes.push({ trait_type: key, value });
-  }
-  return { attributes };
-}
 
 function App() {
   const [tokenCount, setTokenCount] = useState(0);
@@ -48,13 +41,26 @@ function App() {
     background: 'blue',
   });
 
-  const generateBot = (e: any) => {
-    console.log('Do generator logic', e);
-    const robot = traits;
+  const generateBot = (e?: React.MouseEvent) => {
+    const bot: Traits = {
+      base: chance.weighted(base, base_rarity),
+      background: chance.weighted(bg, bg_rarity),
+      color: chance.weighted(color, color_rarity),
+      arms: chance.weighted(arm, arm_rarity),
+      chest: chance.weighted(chest, chest_rarity),
+    };
 
-    // Ensure combo is unique
-    if (!combinations.indexOf(robot)) {
+    const isUnique = containsObject(bot, combinations);
+
+    if (combinations.length && !isUnique) {
+      // If combo already exists, recursively call this function to generate a new bot
+      // generateBot();
+      console.log('Made it here');
     } else {
+      // Else save it to local state, append to combo history, and increment token ID
+      setTraits(bot);
+      setCombinations([...combinations, bot]);
+      setTokenCount(tokenCount + 1);
     }
   };
 
