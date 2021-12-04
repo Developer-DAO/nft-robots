@@ -19,7 +19,7 @@ import {
   chest,
   chest_rarity,
 } from './rarity';
-import { containsObject } from './utils';
+import { containsObject, formatMetadata } from './utils';
 
 var chance = new Chance();
 
@@ -41,6 +41,11 @@ function App() {
     background: 'blue',
   });
 
+  /**
+   * Uses rarity table to create a set of Traits and confirm
+   * that the combination is unique
+   */
+
   const generateBot = (e?: React.MouseEvent) => {
     const bot: Traits = {
       base: chance.weighted(base, base_rarity),
@@ -50,12 +55,11 @@ function App() {
       chest: chance.weighted(chest, chest_rarity),
     };
 
-    const isUnique = containsObject(bot, combinations);
+    const isUnique = !containsObject(bot, combinations);
 
     if (combinations.length && !isUnique) {
       // If combo already exists, recursively call this function to generate a new bot
-      // generateBot();
-      console.log('Made it here');
+      generateBot();
     } else {
       // Else save it to local state, append to combo history, and increment token ID
       setTraits(bot);
@@ -66,13 +70,33 @@ function App() {
 
   return (
     <>
-      <Global styles={{}} />
+      <Global styles={{ svg: { background: traits.background } }} />
       <div id="workspace">
         <div id="dock">
-          <button onClick={generateBot}>Generate</button>
-          <div className="traits"></div>
+          <h1>Robot Generator</h1>
+          <button className="generate-btn" onClick={generateBot}>
+            Generate
+          </button>
+          <div className="robot-count">
+            <h4>Unique Robots:</h4>
+            <div>{tokenCount}</div>
+          </div>
+          <div className="traits">
+            <h4>Current Traits:</h4>
+            <div className="trait-container">
+              <pre>{JSON.stringify(traits, null, ' ')}</pre>
+            </div>
+          </div>
+          <div className="metadata">
+            <h4>Metadata:</h4>
+            <div className="trait-container">
+              <pre>{JSON.stringify(formatMetadata(traits), null, ' ')}</pre>
+            </div>
+          </div>
         </div>
-        <div id="art-preview">{bots[traits.base]}</div>
+        <div id="art-preview">
+          <div className="art-container">{bots[traits.base]}</div>
+        </div>
       </div>
     </>
   );

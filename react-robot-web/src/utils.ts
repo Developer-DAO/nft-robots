@@ -22,6 +22,13 @@ export function formatMetadata(config: Traits) {
   return { attributes };
 }
 
+/**
+ * Utility function to check if object is unique inside an array of objects
+ * @param obj the target object
+ * @param list the array of objects for comparison
+ * @returns boolean
+ */
+
 export function containsObject(obj: object, list: object[]) {
   var i;
   for (i = 0; i < list.length; i++) {
