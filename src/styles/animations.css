@@ -1,4 +1,9 @@
-.devie #l_arm {
+/** DEVIE ANIMATIONS **/
+
+.devie #l_arm_jumbo_wrench,
+.devie #l_arm_magnet,
+.devie #l_arm_buff,
+.devie #l_arm_hinged_wrench {
   animation-name: wiggle_left;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -8,7 +13,10 @@
   animation-fill-mode: none;
 }
 
-.devie #r_arm {
+.devie #r_arm_jumbo_wrench,
+.devie #r_arm_magnet,
+.devie #r_arm_buff,
+.devie #r_arm_hinged_wrench {
   animation-name: wiggle_right;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -18,102 +26,8 @@
   animation-fill-mode: none;
 }
 
-.maggie #l_arm1,
-#l_arm3,
-#l_arm4 {
-  visibility: hidden;
-}
-
-.maggie #r_arm1,
-#r_arm3,
-#r_arm4,
-#r_arm4_2 {
-  visibility: hidden;
-}
-
-.maggie #head1,
-#l_antenna1,
-#r_antenna1 {
-  visibility: hidden;
-}
-
-/* .maggie #head2, #l_antenna2, #r_antenna2 {
-  visibility: hidden; 
-}*/
-
-.maggie #head1,
-#display1,
-#dial1,
-#display2 {
-  visibility: hidden;
-}
-
-.maggie #l_arm1,
-#l_arm2,
-#l_arm3,
-#l_arm4 {
-  animation-name: wiggle_left;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.maggie #r_arm1 {
-  animation-name: wave_right;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.maggie #r_arm2,
-#r_arm3 {
-  animation-name: wave_right_bigarm;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.maggie #r_arm4_2 {
-  animation-name: wave_right_forearm;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.maggie #head1,
-#head2 {
-  animation-name: head_wobble;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.maggie #dial1 {
-  animation-name: antenna_wiggle_right;
-  animation-duration: 5s;
-  animation-delay: 0s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-
-.devie #head {
+.devie #head_jumbo_screen,
+.devie #head_walkie_talkie {
   animation-name: head_turn;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -123,9 +37,204 @@
   animation-fill-mode: none;
 }
 
-#l_antenna,
-#l_antenna1,
-#l_antenna2 {
+.devie #r_arm_jumbo_wrench,
+.devie #r_arm_magnet,
+.devie #r_arm_hinged_wrench {
+  visibility: hidden;
+}
+
+.devie #l_arm_jumbo_wrench,
+.devie #l_arm_hinged_wrench,
+.devie #l_arm_magnet {
+  visibility: hidden;
+}
+
+.devie #head_jumbo_screen {
+  visibility: hidden;
+}
+
+.devie #display_heartbeat,
+.devie #display_gastank,
+.devie #display_gastank_dial {
+  visibility: hidden;
+}
+
+.colortest stop:nth-of-type(2) {
+  stop-color: #0000ff;
+}
+
+/** MAGGIE ANIMATIONS **/
+
+.maggie #l_arm_jumbo_wrench,
+.maggie #l_arm_magnet,
+.maggie #l_arm_buff,
+.maggie #l_arm_hinged_wrench {
+  animation-name: wiggle_left;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie #r_arm_magnet {
+  animation-name: wave_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie #r_arm_jumbo_wrench,
+.maggie #r_arm_buff {
+  animation-name: wave_right_bigarm;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie #r_arm_hinged_wrench_forearm {
+  animation-name: wave_right_forearm;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie #head_jumbo_screen,
+#head_walkie_talkie {
+  animation-name: head_wobble;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.maggie #l_arm_magnet,
+.maggie #l_arm_jumbo_wrench,
+.maggie #l_arm_buff {
+  visibility: hidden;
+}
+
+.maggie #r_arm_magnet,
+.maggie #r_arm_jumbo_wrench,
+.maggie #r_arm_buff {
+  visibility: hidden;
+}
+
+/* .maggie #head_jumbo_screen, .maggie #l_antenna_jumbo_screen, .maggie #r_antenna_jumbo_screen {
+    visibility: hidden; 
+  }*/
+
+.maggie #head_walkie_talkie,
+.maggie #l_antenna_walkie_talkie,
+.maggie #r_antenna_walkie_talkie {
+  visibility: hidden;
+}
+
+.maggie #display_lightwheel,
+.maggie #display_heartbeat {
+  visibility: hidden;
+}
+
+/**
+  SWERVIE STYLES
+  */
+
+.swervie #body {
+  animation-name: body_swerve;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.swervie #head_walkie_talkie,
+.swervie #head_jumbo_screen,
+.swervie #head_space_helmet {
+  animation-name: swerve_balance;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.swervie #l_arm_jumbo_wrench,
+.swervie #l_arm_magnet,
+.swervie #l_arm_buff,
+.swervie #l_arm_hinged_wrench {
+  animation-name: wiggle_left;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.swervie #r_arm_jumbo_wrench,
+.swervie #r_arm_magnet,
+.swervie #r_arm_buff,
+.swervie #r_arm_hinged_wrench {
+  animation-name: wiggle_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.swervie #r_arm_jumbo_wrench,
+.swervie #r_arm_magnet,
+.swervie #r_arm_hinged_wrench {
+  visibility: hidden;
+}
+
+.swervie #l_arm_jumbo_wrench,
+.swervie #l_arm_magnet,
+.swervie #l_arm_hinged_wrench {
+  visibility: hidden;
+}
+
+.swervie #head_space_helmet,
+.swervie #needle_spacehelmet {
+  visibility: hidden;
+}
+
+.swervie #head_jumbo_screen,
+.swervie #l_antenna_jumbo_screen,
+.swervie #r_antenna_jumbo_screen {
+  visibility: hidden;
+}
+
+.swervie #display_lightwheel,
+.swervie #display_heartbeat,
+.swervie #display_switches {
+  visibility: hidden;
+}
+
+/* .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
+    visibility: hidden; 
+  }
+*/
+
+#l_antenna_jumbo_screen,
+#l_antenna_walkie_talkie {
   animation-name: antenna_wiggle_left;
   animation-duration: 5s;
   animation-delay: 0s;
@@ -135,13 +244,22 @@
   animation-fill-mode: none;
 }
 
-#r_antenna,
-#r_antenna1,
-#r_antenna2 {
+#r_antenna_jumbo_screen,
+#r_antenna_walkie_talkie {
   animation-name: antenna_wiggle_right;
   animation-duration: 5s;
   animation-delay: 0s;
   animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+#display_gastank_dial {
+  animation-name: antenna_wiggle_right;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: none;
@@ -401,6 +519,82 @@
 
   61% {
     transform: translateZ(-62px) rotateY(0deg) translateX(0px);
+  }
+}
+
+@keyframes body_swerve {
+  0% {
+    transform: rotate(-2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  16% {
+    transform: rotate(2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  33% {
+    transform: rotate(-2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  49% {
+    transform: rotate(2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  64% {
+    transform: rotate(-2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  83% {
+    transform: rotate(2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+  100% {
+    transform: rotate(-2deg);
+    transform-origin: top center;
+    transform-box: fill-box;
+  }
+}
+
+@keyframes swerve_balance {
+  0% {
+    transform: rotateZ(2deg) rotateY(2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  16% {
+    transform: rotateZ(-2deg) rotateY(-2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  33% {
+    transform: rotateZ(2deg) rotateY(2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  49% {
+    transform: rotateZ(-2deg) rotateY(-2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  64% {
+    transform: rotateZ(2deg) rotateY(2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  83% {
+    transform: rotateZ(-2deg) rotateY(-2deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  100% {
+    transform: rotateZ(2deg) rotateY(2deg);
+    transform-origin: center;
+    transform-box: fill-box;
   }
 }
 
