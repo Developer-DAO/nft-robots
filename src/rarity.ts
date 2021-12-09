@@ -1,3 +1,5 @@
+import { Traits } from './types';
+
 /**
  * Each index of the rarity array corresponds with a trait value at the same index.
  * An array of 1's means that there is no weight for this trait and the odds are neutral.
@@ -5,26 +7,50 @@
  * @link https://chancejs.com/miscellaneous/weighted.html
  */
 
-import { Traits } from './types';
+type RobotAttribute<T> = {
+  variants: T extends 'base'
+    ? Traits['base'][]
+    : T extends 'background'
+    ? Traits['background'][]
+    : T extends 'color'
+    ? Traits['color'][]
+    : T extends 'chest'
+    ? Traits['chest'][]
+    : Traits['arms'][];
+  rarity: number[];
+};
 
-export const bg: Traits['background'][] = [
-  'red',
-  'yellow',
-  'pink',
-  '#bd5178',
-  '#6c51bd',
-  '#51bd8b',
-];
-export const bg_rarity = [1, 1, 1, 1, 1, 1];
+/* Backgrounds */
 
-export const base: Traits['base'][] = ['Devie', 'Johnny', 'Maggie', 'Swervie'];
-export const base_rarity = [1, 1, 1, 1];
+export const background: RobotAttribute<'background'> = {
+  variants: ['red', 'yellow', 'pink', '#bd5178', '#6c51bd', '#51bd8b'],
+  rarity: [1, 1, 1, 1, 1, 1],
+};
 
-export const color: Traits['color'][] = ['gray'];
-export const color_rarity = [1];
+/* Base */
 
-export const arm: Traits['arms'][] = ['arm1', 'arm2', 'arm3', 'arm4'];
-export const arm_rarity = [1, 1, 1, 1];
+export const base: RobotAttribute<'base'> = {
+  variants: ['Devie', 'Johnny', 'Maggie', 'Swervie'],
+  rarity: [1, 1, 1, 1],
+};
 
-export const chest: Traits['chest'][] = ['dial', 'switch', 'clock', 'computer'];
-export const chest_rarity = [1, 1, 1, 1];
+/* Color */
+
+export const color: RobotAttribute<'color'> = {
+  variants: ['gray'],
+  rarity: [1],
+};
+
+/* Arms */
+
+export const arms: RobotAttribute<'arms'> = {
+  variants: ['arm1', 'arm2', 'arm3', 'arm4'],
+  rarity: [1, 1, 1, 1],
+};
+
+/* Chest */
+
+export const chest: RobotAttribute<'chest'> = {
+  variants: ['dial', 'switch', 'clock', 'computer'],
+  rarity: [1, 1, 1, 1],
+};
