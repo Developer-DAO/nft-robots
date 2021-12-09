@@ -1,8 +1,8 @@
 import { Traits } from './types';
 
 /**
- * Each index of the rarity array corresponds with a trait value at the same index.
- * An array of 1's means that there is no weight for this trait and the odds are neutral.
+ * Each index of the rarity array corresponds with a variant value at the same index.
+ * If all numbers in the rarity array are equal then the odds are neutral.
  *
  * @link https://chancejs.com/miscellaneous/weighted.html
  */
@@ -20,35 +20,35 @@ type RobotAttribute<T> = {
   rarity: number[];
 };
 
-/* Backgrounds */
+/** Backgrounds */
 
 export const background: RobotAttribute<'background'> = {
   variants: ['red', 'yellow', 'pink', '#bd5178', '#6c51bd', '#51bd8b'],
   rarity: [1, 1, 1, 1, 1, 1],
 };
 
-/* Base */
+/** Base */
 
 export const base: RobotAttribute<'base'> = {
   variants: ['Devie', 'Johnny', 'Maggie', 'Swervie'],
   rarity: [1, 1, 1, 1],
 };
 
-/* Color */
+/** Color */
 
 export const color: RobotAttribute<'color'> = {
   variants: ['gray'],
   rarity: [1],
 };
 
-/* Arms */
+/** Arms */
 
 export const arms: RobotAttribute<'arms'> = {
   variants: ['arm1', 'arm2', 'arm3', 'arm4'],
   rarity: [1, 1, 1, 1],
 };
 
-/* Chest */
+/** Chest */
 
 export const chest: RobotAttribute<'chest'> = {
   variants: ['dial', 'switch', 'clock', 'computer'],
