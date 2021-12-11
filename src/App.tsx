@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Chance from 'chance';
 import { Global } from '@emotion/react';
 
-import { ReactComponent as DevieBot } from './svg/stuffed/D_DDeviebot_stuffed.svg';
-import { ReactComponent as JohnnyBot } from './svg/stuffed/D_DJohnnybot_stuffed.svg';
-import { ReactComponent as MaggieBot } from './svg/stuffed/D_DMaggiebot_stuffed.svg';
-import { ReactComponent as SwervieBot } from './svg/stuffed/D_DSwerviebot_stuffed.svg';
+import { ReactComponent as DevieBot } from '../artwork/svg/stuffed/D_DDeviebot_stuffed.svg';
+import { ReactComponent as JohnnyBot } from '../artwork/svg/stuffed/D_DJohnnybot_stuffed.svg';
+import { ReactComponent as MaggieBot } from '../artwork/svg/stuffed/D_DMaggiebot_stuffed.svg';
+import { ReactComponent as SwervieBot } from '../artwork/svg/stuffed/D_DSwerviebot_stuffed.svg';
 import { background, base, color, arms, chest } from './rarity';
 import { containsObject, formatMetadata } from './utils';
 import type { Traits } from './types';
