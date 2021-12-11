@@ -9,7 +9,7 @@ interface Metadata {
  * Format trait config object into OpenSea compatible `attributes` metadata
  * @link https://docs.opensea.io/docs/metadata-standards
  *
- * @param config
+ * @param config the current trait configuration
  * @returns array of attributes in metadata object
  */
 

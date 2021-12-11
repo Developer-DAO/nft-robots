@@ -2,24 +2,13 @@ import React, { useState } from 'react';
 import Chance from 'chance';
 import { Global } from '@emotion/react';
 
-import type { Traits } from './types';
-import { ReactComponent as DevieBot } from './assets/D_DDeviebot_stuffed.svg';
-import { ReactComponent as JohnnyBot } from './assets/D_DJohnnybot_stuffed.svg';
-import { ReactComponent as MaggieBot } from './assets/D_DMaggiebot_stuffed.svg';
-import { ReactComponent as SwervieBot } from './assets/D_DSwerviebot_stuffed.svg';
-import {
-  bg,
-  bg_rarity,
-  base,
-  base_rarity,
-  color,
-  color_rarity,
-  arm,
-  arm_rarity,
-  chest,
-  chest_rarity,
-} from './rarity';
+import { ReactComponent as DevieBot } from '../artwork/svg/stuffed/D_DDeviebot_stuffed.svg';
+import { ReactComponent as JohnnyBot } from '../artwork/svg/stuffed/D_DJohnnybot_stuffed.svg';
+import { ReactComponent as MaggieBot } from '../artwork/svg/stuffed/D_DMaggiebot_stuffed.svg';
+import { ReactComponent as SwervieBot } from '../artwork/svg/stuffed/D_DSwerviebot_stuffed.svg';
+import { background, base, color, arms, chest } from './rarity';
 import { containsObject, formatMetadata } from './utils';
+import type { Traits } from './types';
 
 var chance = new Chance();
 
@@ -48,11 +37,11 @@ function App() {
 
   const generateBot = (e?: React.MouseEvent) => {
     const bot: Traits = {
-      base: chance.weighted(base, base_rarity),
-      background: chance.weighted(bg, bg_rarity),
-      color: chance.weighted(color, color_rarity),
-      arms: chance.weighted(arm, arm_rarity),
-      chest: chance.weighted(chest, chest_rarity),
+      base: chance.weighted(base.variants, base.rarity),
+      background: chance.weighted(background.variants, background.rarity),
+      color: chance.weighted(color.variants, color.rarity),
+      arms: chance.weighted(arms.variants, arms.rarity),
+      chest: chance.weighted(chest.variants, chest.rarity),
     };
 
     const isUnique = !containsObject(bot, combinations);
