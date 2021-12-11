@@ -94,7 +94,7 @@
     animation-fill-mode: none;
   }
 
-  .maggie #head_jumbo_screen, #head_walkie_talkie {
+  .maggie #head_jumbo_screen, .maggie #head_walkie_talkie {
     animation-name: head_wobble;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -200,6 +200,99 @@
   }
 */
 
+/**
+JOHNNY BOT STYLES
+**/
+
+  .johnny #head_number5 {
+    animation-name: head_wobble;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .johnny #l_arm_magnet, .johnny #l_arm_hinged_wrench
+   {
+    animation-name: wiggle_left_back;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+
+  .johnny #l_arm_buff
+   {
+    animation-name: wiggle_left_buff_back;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  
+
+  .johnny #r_arm_magnet, .johnny #r_arm_buff, .johnny #r_arm_hinged_wrench
+   {
+    animation-name: wiggle_right_back;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .johnny #l_eyebrow_number5 {
+    animation-name: eyebrow_wiggle_left;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .johnny #r_eyebrow_number5 {
+    animation-name: eyebrow_wiggle_right;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+
+  .johnny #r_arm_buff, .johnny #r_arm_hinged_wrench {
+     visibility: hidden; 
+  }
+
+  .johnny #l_arm_buff, .johnny #l_arm_hinged_wrench {
+     visibility: hidden; 
+  }
+
+  .johnny #display_lightwheel, .johnny #display_heartbeat, .johnny #display_switches {
+    visibility: hidden; 
+  }
+
+  .johnny #wheels {
+    animation-name: sprite_treads;
+    animation-duration: 0.4s;
+    animation-delay: 0s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
   #l_antenna_jumbo_screen, #l_antenna_walkie_talkie {
     animation-name: antenna_wiggle_left;
     animation-duration: 5s;
@@ -230,6 +323,12 @@
     animation-fill-mode: none;
   }
 
+
+  @keyframes sprite_treads {
+    100% {
+      transform: translateX(-2400px);
+    }
+  }
 
   @keyframes wiggle_left {
 
@@ -304,6 +403,135 @@
     100% {
       transform: rotate(2.6deg);
       transform-origin: top left;
+      transform-box: fill-box;
+    }
+  }
+
+
+
+  @keyframes wiggle_right_back {
+
+    0%,5%{
+      transform: rotateY(0.0deg) rotate(2.6deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+    25% {
+      transform: rotateY(4.5deg) rotate(0.9deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+
+    45% {
+      transform: rotateY(-0.5deg) rotate(-3.1deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+
+    65% {
+      transform: rotateY(5.8deg) rotate(-1.5deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+
+    85% {
+      transform: rotateY(-0.5deg)rotate(5.1deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: rotateY(0.0deg) rotate(2.6deg);
+      transform-origin: 10% 20%;
+      transform-box: fill-box;
+    }
+  }
+
+
+@keyframes wiggle_left_buff_back {
+
+    0%{
+      transform: rotateY(0.0deg) rotateZ(2.4deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+    12% {
+      transform: rotateY(-0.5deg) rotateZ(1.5deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+    20% {
+      transform: rotateY(-0.2deg) rotateZ(3.9deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: rotateY(1.2deg) rotateZ(-0.5deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: rotateY(5.8deg) rotateZ(-1.0deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+
+    80% {
+      transform: rotateY(4.5deg) rotateZ(3.9deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: rotateY(0.0deg) rotateZ(2.4deg);
+      transform-origin: 80% 20%;
+      transform-box: fill-box;
+    }
+  }
+
+
+
+@keyframes wiggle_left_back {
+
+    0%{
+      transform: rotateY(0.0deg) rotateZ(2.4deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+    12% {
+      transform: rotateY(-0.5deg) rotateZ(4.5deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+    20% {
+      transform: rotateY(-0.2deg) rotateZ(3.9deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: rotateY(1.2deg) rotateZ(-0.5deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: rotateY(5.8deg) rotateZ(-1.0deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+
+    80% {
+      transform: rotateY(4.5deg) rotateZ(10.9deg);
+      transform-origin: 90% 80%;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: rotateY(0.0deg) rotateZ(2.4deg);
+      transform-origin: 90% 80%;
       transform-box: fill-box;
     }
   }
@@ -538,37 +766,37 @@
 @keyframes swerve_balance {
   0% {
     transform: rotateZ(2deg) rotateY(2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   16% {
     transform: rotateZ(-2deg) rotateY(-2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   33% {
     transform: rotateZ(2deg) rotateY(2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   49% {
     transform: rotateZ(-2deg) rotateY(-2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   64% {
     transform: rotateZ(2deg) rotateY(2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   83% {
     transform: rotateZ(-2deg) rotateY(-2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
   100% {
     transform: rotateZ(2deg) rotateY(2deg);
-    transform-origin: center;
+    transform-origin: bottom center;
     transform-box: fill-box;
   }
 }
@@ -603,6 +831,128 @@
   }
 }
 
+
+  @keyframes eyebrow_wiggle_left {
+
+    0%{
+      transform: rotateZ(0.9deg) rotateX(1.2deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    10% {
+      transform: rotateZ(2.2deg) rotateX(-1deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    20% {
+      transform: rotateZ(2.6deg) rotateX(-1.3deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+  30% {
+      transform: rotateZ(3.4deg) rotateX(-2.4deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    40% {
+      transform: rotateZ(-1.5deg) rotateX(1.4deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+  50% {
+      transform: rotateZ(2.2deg) rotateX(2.4deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    60% {
+      transform: rotateZ(-1.2deg) rotateX(-1.5deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    70% {
+      transform: rotateZ(-0.2deg) rotateX(-0.5deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    80% {
+      transform: rotateZ(-3.3deg) rotateX(-1deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    90% {
+      transform: rotateZ(-3.3deg) rotateX(-3deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+    100% {
+      transform: rotateZ(0.9deg) rotateX(1.2deg);
+      transform-origin: bottom right;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes eyebrow_wiggle_right {
+
+    0%{
+      transform: rotateZ(-0.9deg) rotateX(1.2deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    10% {
+      transform: rotateZ(-2.2deg) rotateX(-1deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    20% {
+      transform: rotateZ(-2.6deg) rotateX(-1.3deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+  30% {
+      transform: rotateZ(-3.4deg) rotateX(-2.4deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    40% {
+      transform: rotateZ(1.5deg) rotateX(1.4deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+  50% {
+      transform: rotateZ(-2.2deg) rotateX(2.4deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    60% {
+      transform: rotateZ(1.2deg) rotateX(-1.5deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    70% {
+      transform: rotateZ(0.2deg) rotateX(-0.5deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    80% {
+      transform: rotateZ(3.3deg) rotateX(-1deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    90% {
+      transform: rotateZ(3.3deg) rotateX(-3deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+    100% {
+      transform: rotateZ(-0.9deg) rotateX(1.2deg);
+      transform-origin: bottom left;
+      transform-box: fill-box;
+    }
+  }
+
+
+
   @keyframes antenna_wiggle_left {
 
     0%{
@@ -620,7 +970,7 @@
       transform-origin: bottom right;
       transform-box: fill-box;
     }
- 	30% {
+  30% {
       transform: rotateZ(2.4deg) rotateX(-2.4deg);
       transform-origin: bottom right;
       transform-box: fill-box;
@@ -630,7 +980,7 @@
       transform-origin: bottom right;
       transform-box: fill-box;
     }
-	50% {
+  50% {
       transform: rotateZ(2.2deg) rotateX(2.4deg);
       transform-origin: bottom right;
       transform-box: fill-box;
@@ -671,7 +1021,7 @@
       transform-box: fill-box;
     }
     10% {
- 	  transform: rotateZ(2.4deg) rotateX(-2.4deg);
+    transform: rotateZ(2.4deg) rotateX(-2.4deg);
       transform-origin: bottom left;
       transform-box: fill-box;
     }
@@ -680,7 +1030,7 @@
       transform-origin: bottom left;
       transform-box: fill-box;
     }
- 	30% {
+  30% {
       transform: rotateZ(2.2deg) rotateX(-1deg);
       transform-origin: bottom left;
       transform-box: fill-box;
@@ -690,13 +1040,13 @@
       transform-origin: bottom left;
       transform-box: fill-box;
     }
-	50% {
-	  transform: rotateZ(-1.2deg) rotateX(-1.5deg);
+  50% {
+    transform: rotateZ(-1.2deg) rotateX(-1.5deg);
       transform-origin: bottom left;
       transform-box: fill-box;
     }
     60% {
-	  transform: rotateZ(2.2deg) rotateX(2.4deg);
+    transform: rotateZ(2.2deg) rotateX(2.4deg);
       transform-origin: bottom left;
       transform-box: fill-box;
     }
