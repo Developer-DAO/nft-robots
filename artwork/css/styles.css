@@ -205,9 +205,9 @@
     visibility: hidden; 
   }
 
-   .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
+/*   .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
     visibility: hidden; 
-  }
+  }*/
 
   .swervie #display_lightwheel, .swervie #display_heartbeat, .swervie #display_switches {
     visibility: hidden; 
