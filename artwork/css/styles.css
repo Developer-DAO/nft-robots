@@ -1,3 +1,7 @@
+  .page {
+    background: #000000;
+  }
+
   /** DEVIE ANIMATIONS **/
 
   .devie #l_arm_jumbo_wrench, .devie #l_arm_magnet, .devie #l_arm_buff, .devie #l_arm_hinged_wrench
@@ -39,7 +43,7 @@
     visibility: hidden; 
   }
 
-  .devie #head_jumbo_screen {
+  .devie #head_walkie_talkie {
     visibility: hidden; 
   }
 
@@ -113,18 +117,29 @@
     visibility: hidden; 
   }
 
-/* .maggie #head_jumbo_screen, .maggie #l_antenna_jumbo_screen, .maggie #r_antenna_jumbo_screen {
-    visibility: hidden; 
-  }*/
-
- .maggie #head_walkie_talkie, .maggie #l_antenna_walkie_talkie, .maggie #r_antenna_walkie_talkie {
+ .maggie #head_jumbo_screen, .maggie #l_antenna_jumbo_screen, .maggie #r_antenna_jumbo_screen {
     visibility: hidden; 
   }
+
+/* .maggie #head_walkie_talkie, .maggie #l_antenna_walkie_talkie, .maggie #r_antenna_walkie_talkie {
+    visibility: hidden; 
+  }*/
 
   .maggie #display_lightwheel, .maggie #display_heartbeat {
     visibility: hidden; 
   }
 
+  .maggie .jumbo_eyes {
+    transform: rotateZ(-6deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+    .maggie .walkie_eyes {
+    transform: rotateZ(-13deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
 
   /**
   SWERVIE STYLES
@@ -190,15 +205,21 @@
     visibility: hidden; 
   }
 
+   .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
+    visibility: hidden; 
+  }
+
   .swervie #display_lightwheel, .swervie #display_heartbeat, .swervie #display_switches {
     visibility: hidden; 
   }
 
 
-/* .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
-    visibility: hidden; 
+  .swervie .jumbo_eyes {
+    transform: rotateZ(2deg);
+    transform-origin: center;
+    transform-box: fill-box;
   }
-*/
+
 
 /**
 JOHNNY BOT STYLES
@@ -293,6 +314,12 @@ JOHNNY BOT STYLES
     animation-fill-mode: none;
   }
 
+  .johnny .number5_eyes {
+    transform: rotateZ(1deg) rotateY(-10deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
   #l_antenna_jumbo_screen, #l_antenna_walkie_talkie {
     animation-name: antenna_wiggle_left;
     animation-duration: 5s;
@@ -327,6 +354,12 @@ JOHNNY BOT STYLES
   @keyframes sprite_treads {
     100% {
       transform: translateX(-2400px);
+    }
+  }
+
+    @keyframes blinky_sprite {
+    100% {
+      transform: translateX(-6000px);
     }
   }
 
