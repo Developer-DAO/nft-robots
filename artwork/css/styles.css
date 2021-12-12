@@ -238,7 +238,7 @@
     visibility: hidden;
   }
 
-  .swervie #display_lightwheel, .swervie #display_heartbeat, .swervie #display_switches {
+  .swervie #display_gastank, .swervie #display_gastank_dial, .swervie #display_heartbeat, .swervie #display_switches {
     visibility: hidden;
   }
 
@@ -268,9 +268,9 @@
     transform-box: fill-box;
   }
 
-  .swervie .magic {
+  /* .swervie .magic {
     visibility: hidden;
-  }
+  } */
 
 
 /**
