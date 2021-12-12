@@ -36,19 +36,19 @@
   }
 
   .devie #r_arm_jumbo_wrench, .devie #r_arm_magnet, .devie #r_arm_hinged_wrench {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .devie #l_arm_jumbo_wrench, .devie #l_arm_hinged_wrench, .devie #l_arm_magnet {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .devie #head_walkie_talkie {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .devie #display_heartbeat, .devie #display_gastank, .devie #display_gastank_dial {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .colortest stop:nth-of-type(2) {
@@ -110,23 +110,23 @@
 
 
   .maggie #l_arm_magnet, .maggie #l_arm_jumbo_wrench, .maggie #l_arm_buff {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .maggie #r_arm_magnet, .maggie #r_arm_jumbo_wrench, .maggie #r_arm_buff {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
  .maggie #head_jumbo_screen, .maggie #l_antenna_jumbo_screen, .maggie #r_antenna_jumbo_screen {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
 /* .maggie #head_walkie_talkie, .maggie #l_antenna_walkie_talkie, .maggie #r_antenna_walkie_talkie {
-    visibility: hidden; 
+    visibility: hidden;
   }*/
 
   .maggie #display_lightwheel, .maggie #display_heartbeat {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .maggie .jumbo_eyes {
@@ -189,28 +189,32 @@
 
   .swervie #r_arm_jumbo_wrench, .swervie #r_arm_magnet, .swervie #r_arm_hinged_wrench
   {
-     visibility: hidden; 
+     visibility: hidden;
   }
 
   .swervie #l_arm_jumbo_wrench, .swervie #l_arm_magnet, .swervie #l_arm_hinged_wrench
   {
-     visibility: hidden; 
+     visibility: hidden;
   }
 
- .swervie #head_space_helmet, .swervie #needle_spacehelmet {
-    visibility: hidden; 
-  }
+ /* .swervie #head_space_helmet, .swervie #needle_spacehelmet {
+    visibility: hidden;
+  } */
 
  .swervie #head_jumbo_screen, .swervie #l_antenna_jumbo_screen, .swervie #r_antenna_jumbo_screen {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
-/*   .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
-    visibility: hidden; 
-  }*/
+  .swervie #head_walkie_talkie, .swervie #l_antenna_walkie_talkie, .swervie #r_antenna_walkie_talkie {
+    visibility: hidden;
+  }
 
   .swervie #display_lightwheel, .swervie #display_heartbeat, .swervie #display_switches {
-    visibility: hidden; 
+    visibility: hidden;
+  }
+
+  .swervie .space_face {
+    clip-path: ellipse(158px 105px at 200px 128px);
   }
 
 
@@ -258,7 +262,7 @@ JOHNNY BOT STYLES
     animation-fill-mode: none;
   }
 
-  
+
 
   .johnny #r_arm_magnet, .johnny #r_arm_buff, .johnny #r_arm_hinged_wrench
    {
@@ -293,15 +297,15 @@ JOHNNY BOT STYLES
 
 
   .johnny #r_arm_buff, .johnny #r_arm_hinged_wrench {
-     visibility: hidden; 
+     visibility: hidden;
   }
 
   .johnny #l_arm_buff, .johnny #l_arm_hinged_wrench {
-     visibility: hidden; 
+     visibility: hidden;
   }
 
   .johnny #display_lightwheel, .johnny #display_heartbeat, .johnny #display_switches {
-    visibility: hidden; 
+    visibility: hidden;
   }
 
   .johnny #wheels {
