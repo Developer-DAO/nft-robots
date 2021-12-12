@@ -55,6 +55,21 @@
     stop-color: #0000ff;
   }
 
+  .devie .l_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  .devie .r_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  .devie .magic {
+    visibility: hidden;
+  }
+
+
 /** MAGGIE ANIMATIONS **/
 
   .maggie #l_arm_jumbo_wrench, .maggie #l_arm_magnet, .maggie #l_arm_buff, .maggie #l_arm_hinged_wrench
@@ -109,11 +124,11 @@
   }
 
 
-  .maggie #l_arm_magnet, .maggie #l_arm_jumbo_wrench, .maggie #l_arm_buff {
+  .maggie #l_arm_magnet, .maggie #l_arm_jumbo_wrench, .maggie #l_arm_hinged_wrench {
     visibility: hidden;
   }
 
-  .maggie #r_arm_magnet, .maggie #r_arm_jumbo_wrench, .maggie #r_arm_buff {
+  .maggie #r_arm_magnet, .maggie #r_arm_jumbo_wrench, .maggie #r_arm_hinged_wrench, .maggie #r_arm_hinged_wrench_forearm {
     visibility: hidden;
   }
 
@@ -125,7 +140,7 @@
     visibility: hidden;
   }*/
 
-  .maggie #display_lightwheel, .maggie #display_heartbeat {
+  .maggie #display_gastank, .maggie #display_gastank_dial, .maggie #display_lightwheel {
     visibility: hidden;
   }
 
@@ -135,11 +150,25 @@
     transform-box: fill-box;
   }
 
-    .maggie .walkie_eyes {
+  .maggie .walkie_eyes {
     transform: rotateZ(-13deg);
     transform-origin: center;
     transform-box: fill-box;
   }
+
+  .maggie .l_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  .maggie .r_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  /* .maggie .magic {
+    visibility: hidden;
+  } */
 
   /**
   SWERVIE STYLES
@@ -217,11 +246,30 @@
     clip-path: ellipse(158px 105px at 200px 128px);
   }
 
+  .swervie .l_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  .swervie .r_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+  }
+
+  .swervie .top_magic_ball {
+    opacity: 0.6;
+    transform: scale(1.15);
+    clip-path: ellipse(29px 29px at 55px 53px);
+  }
 
   .swervie .jumbo_eyes {
     transform: rotateZ(2deg);
     transform-origin: center;
     transform-box: fill-box;
+  }
+
+  .swervie .magic {
+    visibility: hidden;
   }
 
 
@@ -323,6 +371,23 @@ JOHNNY BOT STYLES
     transform-origin: center;
     transform-box: fill-box;
   }
+
+  .johnny .l_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+    transform: scale(1.26);
+  }
+
+  .johnny .r_magic_ball {
+    opacity: 0.6;
+    clip-path: ellipse(42px 42px at 55px 55px);
+    transform: scale(1.26);
+  }
+
+  .johnny .magic {
+    visibility: hidden;
+  }
+
 
   #l_antenna_jumbo_screen, #l_antenna_walkie_talkie {
     animation-name: antenna_wiggle_left;
