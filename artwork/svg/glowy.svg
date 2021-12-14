@@ -1,0 +1,24 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="800px" height="800px" viewBox="0 0 800 800">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="9.800000000000011" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999989, 0, 0, 0.9999999999999989, 359.45,651.8) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF"/>
+
+<stop  offset="68.23529411764706%" stop-color="#FF99FF" stop-opacity="0.4980392156862745"/>
+
+<stop  offset="100%" stop-color="#FF66FF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+
+<g id="light">
+<g transform="matrix( 1.25640869140625, 0, 0, 1.2051239013671875, -92.3,-133.9) ">
+<g>
+<g>
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 352.6 658.7
+Q 355.45 661.55 359.5 661.55 363.55 661.55 366.4 658.7 369.25 655.9 369.25 651.8 369.25 647.8 366.4 644.9 363.55 642.05 359.5 642.05 355.45 642.05 352.6 644.9 349.75 647.8 349.75 651.8 349.75 655.9 352.6 658.7 Z"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

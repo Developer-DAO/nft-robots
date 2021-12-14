@@ -32,10 +32,10 @@
 		"jumbo_screen":["head_jumbo_screen", "l_antenna_jumbo_screen", "r_antenna_jumbo_screen"],
 		"walkie_talkie":["head_walkie_talkie", "l_antenna_walkie_talkie", "r_antenna_walkie_talkie"],
 		"space_helmet":["head_space_helmet", "needle_space_helmet"],
-		"number5":["head_number5"],
-		"gastank":["display_gastank", "display_gastank_dial"],
+		"number5":["head_number5", "l_eyebrow_number5", "r_eyebrow_number5"],
+		"gastank":["display_gastank", "display_gastank_dial", "display_gastank_glowy"],
 		"hearbeat":["display_heartbeat"],
-		"lightwheel":["display_lightwheel"],
+		"lightwheel":["display_lightwheel", "display_lightwheel_glowy", "display_lightwhell_pulse"],
 		"switches":["display_switches"]
 	}
 }

@@ -35,6 +35,36 @@
     animation-fill-mode: none;
   }
 
+  .devie #display_gastank_glowy {
+    animation-name: devie_gastank_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .devie #display_lightwheel_glowy {
+    animation-name: devie_lightwheel_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .devie #display_lightwheel_pulse {
+    animation-name: devie_lightwheel_pulse_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
   .devie #r_arm_jumbo_wrench, .devie #r_arm_magnet, .devie #r_arm_hinged_wrench {
     visibility: hidden;
   }
@@ -47,7 +77,7 @@
     visibility: hidden;
   }
 
-  .devie #display_heartbeat, .devie #display_gastank, .devie #display_gastank_dial {
+  .devie #display_heartbeat, .devie #display_gastank, .devie #display_gastank_dial, .devie #display_gastank_glowy {
     visibility: hidden;
   }
 
@@ -140,7 +170,37 @@
     visibility: hidden;
   }*/
 
-  .maggie #display_gastank, .maggie #display_gastank_dial, .maggie #display_lightwheel {
+  .maggie #display_gastank_glowy {
+    animation-name: maggie_gastank_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .maggie #display_lightwheel_glowy {
+    animation-name: maggie_lightwheel_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .maggie #display_lightwheel_pulse {
+    animation-name: maggie_lightwheel_pulse_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .maggie #display_lightwheel, .maggie #display_heartbeat {
     visibility: hidden;
   }
 
@@ -419,6 +479,238 @@ JOHNNY BOT STYLES
     animation-fill-mode: none;
   }
 
+
+  @keyframes devie_gastank_blinky_light {
+
+    0%{
+      transform: translateY(23px) translateX(-33px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    20% {
+      transform: translateY(23px) translateX(40px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: translateY(23px) translateX(78px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: translateY(23px) translateX(3px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    80%
+     {
+      transform: translateY(23px) translateX(113px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: translateY(23px) translateX(0px) scale(1.4);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes devie_lightwheel_blinky_light {
+
+    0%{
+      transform: translateY(-109px) translateX(8px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-109px) translateX(42px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    66%{
+      transform: translateY(-109px) translateX(75px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+  @keyframes devie_lightwheel_pulse_light {
+
+    0%,100%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    10%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    45%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.5;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    65%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.2;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    75%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    100%{
+      transform: translateY(-17px) translateX(38px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+
+  @keyframes maggie_gastank_blinky_light {
+
+    0%{
+      transform: translateY(-5px) translateX(0px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    20% {
+      transform: translateY(-5px) translateX(63px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: translateY(-5px) translateX(96px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: translateY(-5px) translateX(31px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    80%
+     {
+      transform: translateY(-5px) translateX(127px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: translateY(-5px) translateX(0px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes maggie_lightwheel_blinky_light {
+
+    0%{
+      transform: translateY(-133px) translateX(31px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-133px) translateX(65px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    66%{
+      transform: translateY(-133px) translateX(97px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+  @keyframes maggie_lightwheel_pulse_light {
+
+    0%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    10%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    45%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.5;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    65%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.2;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    75%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    100%{
+      transform: translateY(-40px) translateX(65px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
 
   @keyframes sprite_treads {
     100% {
