@@ -328,6 +328,37 @@
     transform-box: fill-box;
   }
 
+  .swervie #display_gastank_glowy {
+    animation-name: swervie_gastank_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .swervie #display_lightwheel_glowy {
+    animation-name: swervie_lightwheel_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .swervie #display_lightwheel_pulse {
+    animation-name: swervie_lightwheel_pulse_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+
   /* .swervie .magic {
     visibility: hidden;
   } */
@@ -446,6 +477,36 @@ JOHNNY BOT STYLES
 
   .johnny .magic {
     visibility: hidden;
+  }
+
+  .johnny #display_gastank_glowy {
+    animation-name: johnny_gastank_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .johnny #display_lightwheel_glowy {
+    animation-name: johnny_lightwheel_blinky_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+  .johnny #display_lightwheel_pulse {
+    animation-name: johnny_lightwheel_pulse_light;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
   }
 
 
@@ -711,6 +772,239 @@ JOHNNY BOT STYLES
       transform-box: fill-box;
     }
   }
+
+  @keyframes swervie_gastank_blinky_light {
+
+    0%{
+      transform: translateY(1px) translateX(-10px) scale(.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    20% {
+      transform: translateY(1px) translateX(41px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: translateY(1px) translateX(68px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: translateY(1px) translateX(15px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    80%
+     {
+      transform: translateY(1px) translateX(93px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: translateY(1px) translateX(-10px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes swervie_lightwheel_blinky_light {
+
+    0%{
+      transform: translateY(-103px) translateX(8px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-103px) translateX(42px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    66%{
+      transform: translateY(-103px) translateX(75px) scale(1.2);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+  @keyframes swervie_lightwheel_pulse_light {
+
+    0%,100%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    10%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    45%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.5;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    65%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.2;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    75%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    100%{
+      transform: translateY(-28px) translateX(40px) scale(1.8);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes johnny_gastank_blinky_light {
+
+    0%{
+      transform: translateY(-171px) translateX(-21px) scale(1);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    20% {
+      transform: translateY(-171px) translateX(28px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    40% {
+      transform: translateY(-171px) translateX(54px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    60% {
+      transform: translateY(-171px) translateX(3px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    80%
+     {
+      transform: translateY(-171px) translateX(79px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    100% {
+      transform: translateY(-171px) translateX(-21px) scale(0.9);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+
+  @keyframes johnny_lightwheel_blinky_light {
+
+    0%{
+      transform: translateY(-276px) translateX(7px) scale(1);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-276px) translateX(35px) scale(1);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    66%{
+      transform: translateY(-276px) translateX(62px) scale(1);
+      opacity: 0.8;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
+  @keyframes johnny_lightwheel_pulse_light {
+
+    0%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    10%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    33%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    45%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.5;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    65%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.2;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    75%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.6;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    100%{
+      transform: translateY(-198px) translateX(32px) scale(1.6);
+      opacity: 0.4;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+  }
+
 
   @keyframes sprite_treads {
     100% {
